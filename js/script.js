@@ -1,4 +1,3 @@
-// 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, a, b, c, d, e, f
 let hexCode1 = "";
 let hexCode2 = "";
 function getRandomGradient(){
@@ -11,7 +10,7 @@ function getRandomGradient(){
     return hexCode1, hexCode2;
 } 
 
-function innerHexCode() {
+function pasteHexCode() {
     getRandomGradient();    
     document.getElementById("hex-code1").innerHTML = hexCode1;
     document.getElementById("hex-code2").innerHTML = hexCode2;
